@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d_menu_ust {
+    margin: 0 auto;
+    width: 100%;
+    background-color: hsl(0, 0%, 69%);
+    color: black;
+    outline: 3px solid black;
+    outline-offset: -3px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+
+.menu_ust {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu_ust li {
+    border: 1px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    font-size: 35px;
+    float: left;
+    padding: 20px 0px;
+
+}
+
+.menu_ust a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 50px;
+}
+
+.menu_ust li :hover {
+    background-color: #d6d6d6;
+    color: #3b45a1;
+}
+
+.d_menu_yan {
+    padding: 100px 0px 0px 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    width: 120px;
+    height: 70px;
+    background-color: rgb(252, 255, 80);
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.menu_yan {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_yan li {
+
+    list-style: none;
+    display: block;
+}
+
+.menu_yan a {
+    text-decoration: none;
+    color: black;
+}
+
+.li_menu {
+    text-align: center;
+    position: relative;
+    width: 120px;
+    height: 30%;
+    margin-bottom: 12px;
+    cursor: default;
+    font-size: 30px;
+}
+
+.li_gizli {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: white;
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.li_gizli li {
+    padding: 10px 10px;
+    background-color: rgb(79, 236, 127);
+}
+
+.li_gizli a {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.li_gizli li :hover {
+    color: yellow;
+}
+
+.li_menu:hover .li_gizli {
+    display: block;
+}
+
+.reklam {
+    font-size: 110px;
+    background-color: #d6d6d6;
+    height: max-content;
+    float: right;
+    margin-top: 60px;
+    writing-mode: vertical-rl;
+    padding: 75px 39px 75px 39px;
+    color: rgba(0, 0, 0, 0.397);
+}
+
+.icerik {
+    float: left;
+    margin: 90px 7px 110px 170px;
+    width: 45%;
+}
+
+.baslik1 {
+    font-size: 60px;
+}
+
+.metin1 {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.foto {
+    margin-top: 220px;
+    float: right;
+}
+
+.foto img {
+    width: 630px;
+    height: auto;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.baslik_ana {
+    position: absolute;
+    font-size: 100px;
+    padding: 0px 140px;
+    color: #222222;
+    border: 5px solid black;
+    border-radius: 40px;
+}
+
+.icerik2 {
+    float: left;
+    margin: 90px 7px 110px 350px;
+    width: 40%;
+}
+
+.tür {
+    list-style: none;
+    margin-top: 150px;
+
+}
+
+.tür li {
+    margin: 100px;
+    text-align: center;
+
+}
+
+.tür a {
+    text-decoration: none;
+    color: black;
+}
+
+.metin2 {
+    font-size: 60px;
+    margin-left: 30px;
+}
+
+.metin2 :hover {
+    color: rgb(128, 0, 0);
+}
+
+.foto2 {
+    margin-top: 220px;
+    float: left;
+}
+
+.foto2 img {
+    width: 250px;
+    height: auto;
+    border: 3px solid black;
+    margin: 10px 2px 2px 2px;
+}
+
+.hakkımızda {
+    position: relative;
+    width: 100%;
+    background-color: #535353;
+    border-radius: 40px;
+}
+
+.baslik_ana2 {
+    text-align: center;
+    z-index: 0;
+    position: relative;
+    font-size: 80px;
+    padding: 0px 140px;
+    color: #ffffff;
+    border: 5px solid rgb(61, 21, 21);
+    border-radius: 40px;
+}
+
+.icerik3 {
+    float: left;
+    margin: 110px 7px 0px 350px;
+    width: 60%;
+}
+
+.kucukbaslik {
+    float: left;
+}
+
+.metin3 {
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.fotobenim {
+    text-align: center;
+}
+
+.fotobenim img {
+    width: 530px;
+    height: auto;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.iletisim {
+    text-decoration: none;
+    font-size: 35px;
+    color: #364099;
+}
+
+.video {
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.video video {
+    width: 670px;
+    border: 2px solid black;
+}
+
+.icerik4 {
+    float: left;
+    margin: 15px 7px 0px 350px;
+    width: 60%;
+}
+
+.baslik_ana3 {
+    text-align: center;
+    z-index: 0;
+    position: relative;
+    padding: 10px 0px;
+    font-size: 80px;
+    color: #ffffff;
+    border: 5px solid rgb(61, 21, 21);
+    border-radius: 40px;
+}
+
+.text {
+    font-size: 20px;
+    margin: 10px 20px;
+}
+
+legend {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+fieldset {
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+textarea {
+    margin: 20px 20px;
+}
+
+.buton {
+    margin-bottom: 10px;
+}
+
+.buton input {
+    margin-left: 20px;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+}
+.bas{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(189, 189, 189);
+    font-size: 20px;
+    border: 3px solid black;
+    padding: 7px;
+    border-radius: 20px;
+    margin: 10px;
+}
+select{
+    height: 26px;
+    width: auto;
+}
+.diger{
+    border: none;
+    height: 30px;
+    width: 220px;
+}
+input[type="checkbox"]{
+    transform: scale(1.5);
+}

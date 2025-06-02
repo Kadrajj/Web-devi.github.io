@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <link rel="stylesheet" href="stil.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Mustafa Emin Toklu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bize Ulaşın</title>
+    <style>
+        table {
+            width: 300px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        td,th {
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="d_menu_ust">
+        <ul class="menu_ust">
+            <li style="border-left: 2px solid black;"><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="sayfa1 (oyun turleri).html">Oyun Türleri</a></li>
+            <li><a href="sayfa2(hakkımızda).html">Hakkımızda</a></li>
+            <li style="border-right: 2px solid black;"><a href="sayfa3(bizeulasın).html">Bize Ulaşın</a></li>
+        </ul>
+    </div>
+
+    <div class="d_menu_yan">
+        <ul class="menu_yan">
+            <li class="li_menu" style="padding: 14px 0px;">MENU
+                <ul class="li_gizli">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="sayfa1 (oyun turleri).html">Oyun Türleri</a></li>
+                    <li><a href="sayfa2(hakkımızda).html">Hakkımızda</a></li>
+                    <li><a href="sayfa3(bizeulasın).html">Bize Ulaşın</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="reklam">REKLAMREKLAMREKLAM</div>
+    <div class="icerik3">
+        <div class="hakkımızda">
+            <h1 class="baslik_ana2">BİZE ULAŞIN</h1>
+        </div><br>
+        <form action="" class="bizeulasın">
+            <fieldset>
+                <legend>Kişisel Bilgiler</legend>
+                <p class="text">Adınız*:<input type="text" required></p>
+                <p class="text">Soy Adınız*:<input type="text" required></p>
+                <p class="text">E-Posta*:<input type="text" placeholder="E-Posta" required></p>
+                <p class="text">Telefon Numarası: <input type="text" value="+90"></p>
+                <p class="text">Doğum Tarihi:<input type="date"></p>
+                <p class="text">Cinsiyet:</p>
+                <p class="text">
+                    Erkek
+                    <input type="radio" name="cinsiyet">
+                </p>
+                <p class="text">
+                    Kadın
+                    <input type="radio" name="cinsiyet">
+                </p>
+                <p class="text">İlgi Alanlarınız:</p>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" name="ilgi"></td>
+                        <td class="text">Futbol</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="ilgi"></td>
+                        <td class="text">Bisiklet Sürmek</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="ilgi"></td>
+                        <td class="text">Koşu Yapmak</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="ilgi"></td>
+                        <td class="text">Basketbol</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="ilgi"></td>
+                        <td class="text">Voleybol</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="ilgi"></td>
+                        <td class="text">Yüzme</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="ilgi"></td>
+                        <td class="text">Tenis</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="ilgi"></td>
+                        <td class="text">Beyzbol</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="ilgi"></td>
+                        <td class="text">Yoga Yapmak</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="ilgi"></td>
+                        <td class="text">Doğa Yürüyüşü</td>
+                    </tr>
+                    <tr>
+                        <td>Diğer:</td>
+                        <td><input class="diger" type="text"></td>
+                    </tr>
+                </table>
+                <hr>
+                <p class="text">Bölüm Seçiniz*
+                    <select name="bolum">
+                        <option value="1">Bilgisayar Teknolojileri Bölümü</option>
+                        <option value="2">Çocuk Bakımı ve Gençlik Hizmetleri Bölümü </option>
+                        <option value="3">Sosyal Hizmet ve Danışmanlık Bölümü</option>
+                        <option value="4">Terapi ve Rehabilitasyon Bölümü</option>
+                        <option value="5">Tıbbi Hizmetler ve Teknikler Bölümü</option>
+                        <option value="6">Yönetim ve Organizasyon Bölümü</option>
+                    </select>
+                </p><br>
+                <p class="text">Mesajınız:</p>
+                <textarea cols="60px" rows="10px"></textarea>
+                <p style="margin-left: 20px; font-size: 25px;">* Alanlar Zorunludur</p><br>
+                <div class="buton">
+                    <input type="submit" value="Gönder">
+                    <input type="reset" value="Temizle">
+                </div>
+            </fieldset><br>
+            <a href="sayfa3(bizeulasın).html" class="bas">Başa Dön</a>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
